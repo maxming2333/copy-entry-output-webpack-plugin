@@ -1,11 +1,14 @@
 {
-  "name": "copy-output-webpack-plugin",
-  "description": "A webpack plugin for copy output files in another place",
+  "name": "copy-entry-output-webpack-plugin",
+  "description": "A Webpack plugin for copying output files in another location based on entry dependencies",
   "version": "0.0.1",
   "main": "index.js",
   "private": false,
   "keywords": [
     "copy output",
+    "entry dependencies",
+    "entry",
+    "dependencies",
     "copy",
     "output",
     "webpack",
@@ -46,14 +49,14 @@
       "email": "maxming2333@gmail.com"
     }
   ],
-  "homepage": "https://github.com/maxming2333/copy-output-webpack-plugin",
+  "homepage": "https://github.com/maxming2333/copy-entry-output-webpack-plugin",
   "repository": {
     "type": "git",
-    "url": "git@github.com:maxming2333/copy-output-webpack-plugin.git",
-    "web": "https://github.com/maxming2333/copy-output-webpack-plugin.git"
+    "url": "git@github.com:maxming2333/copy-entry-output-webpack-plugin.git",
+    "web": "https://github.com/maxming2333/copy-entry-output-webpack-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/maxming2333/copy-output-webpack-plugin/issues",
+    "url": "https://github.com/maxming2333/copy-entry-output-webpack-plugin/issues",
     "email": "maxming2333@gmail.com"
   },
   "engines": {
