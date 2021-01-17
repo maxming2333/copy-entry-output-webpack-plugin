@@ -1,0 +1,63 @@
+{
+  "name": "copy-output-webpack-plugin",
+  "description": "A webpack plugin for copy output files in another place",
+  "version": "0.0.1",
+  "main": "index.js",
+  "private": false,
+  "keywords": [
+    "copy output",
+    "copy",
+    "output",
+    "webpack",
+    "webpack plugin"
+  ],
+  "scripts": {
+    "lint": "eslint --quiet --ext .ts,.js,.vue"
+  },
+  "dependencies": {
+    "minimatch": "^3.0.4",
+    "mkdirp": "^1.0.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,js,vue}": [
+      "npm run lint",
+      "git add"
+    ],
+    "*.{md,scss}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "maxming",
+      "email": "maxming2333@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/maxming2333/copy-output-webpack-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maxming2333/copy-output-webpack-plugin.git",
+    "web": "https://github.com/maxming2333/copy-output-webpack-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxming2333/copy-output-webpack-plugin/issues",
+    "email": "maxming2333@gmail.com"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "author": "maxming <maxming2333@gmail.com> (http://maxming.me)"
+}
