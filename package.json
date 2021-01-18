@@ -1,7 +1,7 @@
 {
   "name": "copy-entry-output-webpack-plugin",
   "description": "A Webpack plugin for copying output files in another location based on entry dependencies",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "private": false,
   "keywords": [
